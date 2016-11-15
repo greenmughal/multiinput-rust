@@ -1,5 +1,5 @@
 [package]
-name = "multi-input"
+name = "multiinput"
 version = "0.0.1"
 authors = ["Jonesey13 <alexander.jones@softwire.com>"]
 description = """
