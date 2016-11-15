@@ -84,9 +84,9 @@ fn read_input_buffer(event_queue: &mut VecDeque<RawEvent>, devices: &mut Devices
 
 pub fn get_event( event_queue: &mut VecDeque<RawEvent>, devices: &mut Devices,
                   ) -> Option<RawEvent> {
-    if event_queue.is_empty() {
+    //if event_queue.is_empty() {
         read_input_buffer( event_queue, devices);
-    }
+    //}
     let event = event_queue.pop_front();
     event
 }
